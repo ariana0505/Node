@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Aprendiendo Node con midulive",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariana0505/Curso-Node-Js.git"
+  },
+  "keywords": [
+    "nodecurso"
+  ],
+  "author": "Ariana Alisson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariana0505/Curso-Node-Js/issues"
+  },
+  "homepage": "https://github.com/ariana0505/Curso-Node-Js#readme"
+}
