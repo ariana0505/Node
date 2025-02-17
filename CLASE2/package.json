@@ -1,0 +1,22 @@
+{
+  "name": "clase2",
+  "version": "1.0.0",
+  "description": "Api con Express",
+  "main": "index2.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariana0505/Node.git#main"
+  },
+  "keywords": [
+    "clase2"
+  ],
+  "author": "Ariana Alisson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariana0505/Node/issues"
+  },
+  "homepage": "https://github.com/ariana0505/Node/tree/main#readme"
+}
