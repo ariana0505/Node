@@ -1,4 +1,5 @@
 const fs = require('node:fs/promises');
+const { type } = require('node:os');
 const path = require('node:path');
 const pc = require('picocolors');
 // indica la ubicacion del folder si es nulo o indifinido tendra el actual
@@ -13,6 +14,7 @@ async function ls (folder) {
     process.exit(1);
   }
 
+
   const filesPromises = files.map(async file => {
     const filePath = path.join(folder, file);
     let stats;
@@ -23,7 +25,7 @@ async function ls (folder) {
       console.error(`No se pudo leer el archivo ${filePath}`);
       process.exit(1);
     }
-
+    
     const isDirectory = stats.isDirectory();
     const fileType = isDirectory ? 'd' : 'f';
     const fileSize = stats.size.toString();
