@@ -24,7 +24,18 @@ app.get('/',(req, res) => {
     })
 })
 
+app.get('/about', (req,res)=>{
+    res.send('Hola desde la proimera ruta :D');
+})
+app.get('/weathert', (req,res)=>{
+    res.end('Hola desde la segunda ruta c:');
+})
+
+app.use((req,res)=>{//cuando no se encuentra ninguna de las rutas anteriores se ejetura esta como un auxiliar
+    res.send('No se encontro tu pagina')
+})
+
 app.listen(5500);
-console.log('Server on port: ' + 3001);
+console.log('Server on port: ' + 5500);
 
  
